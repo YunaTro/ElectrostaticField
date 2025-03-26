@@ -502,7 +502,7 @@ def work():
 # Заставка
 c.create_text(960, 300, text='Построение линий напряжённости\nэлектростатического поля\nточечных зарядов', font="Verdana 54", justify="center")
 c.create_text(960, 500, text='Троицкая Юна', font="Verdana 38", justify="center", fill="grey")
-c.create_text(960, 580, text="Студент НИЯУ МИФИ, 2 курс", font="Verdana 38", justify="center", fill="grey")
+c.create_text(960, 580, text="Студент НИЯУ МИФИ", font="Verdana 38", justify="center", fill="grey")
 c.create_text(960, 800, text="Нажмите на пробел, чтобы перейти в меню.", font="Verdana 40", justify="center")
 root.bind("<space>", menu)
 root.bind("<Escape>", menu)
